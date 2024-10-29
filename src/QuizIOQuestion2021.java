@@ -27,7 +27,19 @@ public class QuizIOQuestion2021 {
                  else {
                     System.out.println("not matched");
                 }
+        System.out.println("------------------------------------");
+                 //Q2
 
+        System.out.println("Enter your name : ");
+
+        String name = inp.nextLine();
+        System.out.println("Enter your surname: ");
+        String  surname = inp.nextLine();
+        System.out.println("Enter your student ID: ");
+        int studentID = inp.nextInt();
+        String id_final = String.valueOf(studentID);
+        String password = name.substring(0,2) + surname.substring(surname.length()-3) + id_final.substring(id_final.length()-3);
+        System.out.println("Your password is: " + password);
 
         }
 
