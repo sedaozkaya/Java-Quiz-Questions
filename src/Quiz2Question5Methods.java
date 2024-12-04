@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class Quiz2Question5Methods {
     public static void main(String[] args) {
+        //Ask the user to enter two positive integers. If she/he enters a negative integer, warn the user and ask her/him to enter two positive integers again. These positive integers are arguments of the method. Write a method that returns the “negative” or “positive” result, if the difference between these two numbers is negative or positive.
         Scanner inp = new Scanner(System.in);
 
 

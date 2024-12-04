@@ -30,7 +30,6 @@ public class HotelReservation {
             else if (person <6) {
                 System.out.println("NONE");
             }
-
         }
         else {
             System.out.println("No suitable room found");

@@ -5,7 +5,7 @@ evennegative(-10 ,10);
 
     public static void evennegative(int start, int finish) {
         int negativecounter = 0;
-
+//Write a void method that displays the negative even numbers of the generated 10 random numbers between -10 and +10. If there is no negative even number, print "negative even number not found". Define the numbers -10 and +10 as formal parameters of method.
         for (int i = 0; i < 10; i++) {
 
             int randNum = (int) (start + Math.random() * (finish - start + 1));

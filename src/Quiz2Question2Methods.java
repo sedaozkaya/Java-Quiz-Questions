@@ -1,5 +1,6 @@
 public class Quiz2Question2Methods {
     public static void main(String[] args) {
+        //Write a method that returns the total number of even numbers  among 10 random numbers generated between 1 and 10. Define the numbers 1 and 10 as formal parameters of method.
         System.out.println(totaleven(1, 10, 10));
     }
 

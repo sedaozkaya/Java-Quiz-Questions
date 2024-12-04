@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class Quiz2Question3Methods {
     public static void main(String[] args) {
+        //Write a method that returns the number of ‘a’ character in the following sentence. Define ‘a’ character as formal parameters of method.
+        //“Programming is the process of creating a set of instructions.”
         Scanner inp = new Scanner(System.in);
         System.out.println("enter a sentence: ");
         String sentence = inp.nextLine();

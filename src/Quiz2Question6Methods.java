@@ -1,5 +1,6 @@
 public class Quiz2Question6Methods {
     public static void main(String[] args) {
+        //Generate the 10 random integer numbers between 1 and 100. Write a program that displays the numbers that are greater than the average. Write a method that returns the average of the 10 random integer numbers. Define the numbers 1 and 100 as formal parameters of method.
         System.out.println("average : "+average(0, 100));
     }
 
