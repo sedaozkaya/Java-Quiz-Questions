@@ -1,4 +1,4 @@
-public class QuizArray_Q8 {
+public class QuizArrays_Q8 {
     public static void main(String[] args) {
         //Write a method that randomly fills in integers between -50 to +50 into a 10-by-10 matrix,
         // write a method that prints the matrix,
