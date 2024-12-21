@@ -16,6 +16,7 @@ public class QuizArrays_Q3 {
 
     }
 
+
     public static int[][] createArray(int numberOfEmp) {
         int[][] array = new int[numberOfEmp][7];
         for (int i = 0; i < numberOfEmp; i++) {
