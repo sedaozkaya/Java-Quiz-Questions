@@ -1,5 +1,10 @@
 public class QuizArrays_Q2 {
     public static void main(String[] args) {
+//Suppose the weekly hours for all employees are stored in a two-dimensional array.
+// Each row records an employee’s seven-day work hours with seven columns.
+// For example, the following array stores the work hours for eight employees.
+// Write a method that create a two dimensional array randomly between 1 to 9.
+// Write a method that displays the most working employee in a week
 
         int numberOfEmployee = 10;
         int[][] array = createArray(numberOfEmployee);

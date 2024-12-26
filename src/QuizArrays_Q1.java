@@ -3,6 +3,12 @@ import java.util.Scanner;
 
 public class QuizArrays_Q1 {
     public static void main(String[] args) {
+        //Write a method that randomly fills in integers between 1 to 100 into a 10-by-10 matrix,
+        // and write an other method that displays this matrix.
+        // Ask the user two positive integer between 0 to 9.
+        // The first integer represents the row index, the second integer represents the column index.
+        // Write a method that sums the user’s row elements and user’s column elements,
+        // and displays the user array
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Enter the row number (0-9):");
